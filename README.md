@@ -7,25 +7,25 @@ update, delete, and list products.
 
 1. Clone the repository
 
-```
-git clone
+```shell
+git clone https://github.com/BerkayMehmetSert/net.XUnit.git
 ```
 
 2. Install dependencies
 
-```
+```shell
 dotnet restore
 ```
 
 3. Create database
 
-```
+```shell
 dotnet ef database update
 ```
 
 4. Run the project
 
-```
+```shell
 dotnet run
 ```
 
@@ -132,7 +132,7 @@ DELETE /api/product/{id}
 
 1. Run the tests
 
-```
+```shell
 dotnet test
 ```
 
